@@ -1,0 +1,61 @@
+<h1 class="text-center font-bold text-2xl mb-6">Funcionários Cadastrados</h1>
+<div class="flex justify-end">
+    <a id="novoFuncionarioLink" href="#"
+        class="border px-6 py-3 mb-2 bg-green-400 hover:bg-green-600 rounded-md text-sm font-bold text-white">Novo
+        Funcionário</a>
+</div>
+
+<div id="overlay" class="fixed top-0 left-0 w-full h-full z-10 flex justify-center items-center bg-black bg-opacity-50 p-3 hidden">
+    <div id="popup" class="rounded-md bg-white p-5 w-96 shadow-md max-h-full overflow-auto hidden">
+        <h2 id="popupAction" class="text-center font-bold text-lg mb-4">Cadastro de Funcionário</h2>
+        <form id="funcionarioForm">
+            <div class="mb-4">
+                <label for="nome" class="block mb-2 text-sm font-bold">Nome:</label>
+                <input type="text" id="nome" class="border rounded-md focus:outline-none shadow-sm focus:border-sky-500  focus:ring-1 focus:ring-sky-500 border-green-500 w-full px-3 py-2" required>
+            </div>
+            <div class="mb-4">
+                <label for="sobrenome" class="block mb-2 text-sm font-bold">Sobrenome:</label>
+                <input type="text" id="sobrenome" class="border rounded-md focus:outline-none shadow-sm focus:border-sky-500  focus:ring-1 focus:ring-sky-500 border-green-500 w-full px-3 py-2" required>
+            </div>
+            <div class="mb-4">
+                <label for="salario" class="block mb-2 text-sm font-bold">Salário:</label>
+                <input type="text" id="salario" class="border rounded-md focus:outline-none shadow-sm focus:border-sky-500 focus:ring-1 focus:ring-sky-500 border-green-500 w-full px-3 py-2" required>
+            </div>
+            <div class="mb-4">
+                <label for="data_nascimento" class="block mb-2 text-sm font-bold">Data de Nascimento:</label>
+                <input type="date" id="data_nascimento"
+                    class="border w-full px-3 py-2 border-green-500 rounded-md focus:outline-none shadow-sm focus:border-sky-500 focus:ring-1 focus:ring-sky-500 sm:text-sm">
+            </div>
+            <div class="flex justify-end">
+                <button type="button"
+                    class="border px-6 py-3 mr-2 bg-green-400 hover:bg-green-600 rounded-md text-sm font-bold text-white"
+                    id="salvarBtn">Salvar</button>
+                <button type="button"
+                    class="border px-6 py-3 bg-red-500 hover:bg-red-600 rounded-md text-sm font-bold text-white"
+                    id="cancelarBtn">Cancelar</button>
+            </div>
+        </form>
+    </div>
+</div>
+
+<div class="overflow-x-auto">
+    <table class="table-fixed w-full">
+        <thead>
+            <tr class="bg-green-400">
+                <td class="w-36 border text-white border-green-500 px-4 py-3 text-center text-sm font-bold">Nome</td>
+                <td class="w-36 border text-white border-green-500 px-4 py-3 text-center text-sm font-bold">Sobrenome
+                </td>
+                <td class="w-36 border text-white border-green-500 px-4 py-3 text-center text-sm font-bold">Salário
+                </td>
+                <td class="w-36 border text-white border-green-500 px-4 py-3 text-center text-sm font-bold">Data de
+                    Nascimento
+                </td>
+                <td class="w-60 border text-white border-green-500 px-4 py-3 text-center text-sm font-bold" colspan="2">
+                    Ação</td>
+            </tr>
+        </thead>
+        <tbody id="funcionariosTableBody">
+        </tbody>
+    </table>
+</div>
+<script src="/public/js/funcionario.js"></script>
