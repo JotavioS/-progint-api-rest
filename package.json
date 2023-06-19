@@ -1,14 +1,14 @@
 {
-  "name": "progint-ecom-training",
+  "name": "progint-api-rest",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "Trabalho Final para a conclusão da Disciplina: Programação para Internet I no Curso Tecnológo em Análise e Desenvolvimento de Sistemas.",
+  "main": "app.js",
   "scripts": {
     "dev": "nodemon app.js",
     "test": "echo \"Error: no test specified\" && exit 1",
     "build-css": "postcss public/css/main.css -o public/css/output.css"
   },
-  "author": "Gênesis Lima",
+  "author": "João Otávio Gurgel Souto",
   "license": "MIT",
   "dependencies": {
     "autoprefixer": "^10.4.14",

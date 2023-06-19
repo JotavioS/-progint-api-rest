@@ -6,7 +6,7 @@ const webRoutes = require('./routes/web');
 const apiRoutes = require('./routes/api');
 
 const app = express();
-const port = process.env.PORT || 8080;
+const port = process.env.PORT || 80;
 
 const hbsConfig = {
     defaultLayout: 'main',

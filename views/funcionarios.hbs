@@ -5,21 +5,28 @@
         Funcionário</a>
 </div>
 
-<div id="overlay" class="fixed top-0 left-0 w-full h-full z-10 flex justify-center items-center bg-black bg-opacity-50 p-3 hidden">
+<div id="overlay"
+    class="fixed top-0 left-0 w-full h-full z-10 flex justify-center items-center bg-black bg-opacity-50 p-3 hidden">
     <div id="popup" class="rounded-md bg-white p-5 w-96 shadow-md max-h-full overflow-auto hidden">
         <h2 id="popupAction" class="text-center font-bold text-lg mb-4">Cadastro de Funcionário</h2>
         <form id="funcionarioForm">
             <div class="mb-4">
                 <label for="nome" class="block mb-2 text-sm font-bold">Nome:</label>
-                <input type="text" id="nome" class="border rounded-md focus:outline-none shadow-sm focus:border-sky-500  focus:ring-1 focus:ring-sky-500 border-green-500 w-full px-3 py-2" required>
+                <input type="text" id="nome"
+                    class="border rounded-md focus:outline-none shadow-sm focus:border-sky-500  focus:ring-1 focus:ring-sky-500 border-green-500 w-full px-3 py-2"
+                    required>
             </div>
             <div class="mb-4">
                 <label for="sobrenome" class="block mb-2 text-sm font-bold">Sobrenome:</label>
-                <input type="text" id="sobrenome" class="border rounded-md focus:outline-none shadow-sm focus:border-sky-500  focus:ring-1 focus:ring-sky-500 border-green-500 w-full px-3 py-2" required>
+                <input type="text" id="sobrenome"
+                    class="border rounded-md focus:outline-none shadow-sm focus:border-sky-500  focus:ring-1 focus:ring-sky-500 border-green-500 w-full px-3 py-2"
+                    required>
             </div>
             <div class="mb-4">
                 <label for="salario" class="block mb-2 text-sm font-bold">Salário:</label>
-                <input type="text" id="salario" class="border rounded-md focus:outline-none shadow-sm focus:border-sky-500 focus:ring-1 focus:ring-sky-500 border-green-500 w-full px-3 py-2" required>
+                <input type="text" id="salario"
+                    class="border rounded-md focus:outline-none shadow-sm focus:border-sky-500 focus:ring-1 focus:ring-sky-500 border-green-500 w-full px-3 py-2"
+                    required>
             </div>
             <div class="mb-4">
                 <label for="data_nascimento" class="block mb-2 text-sm font-bold">Data de Nascimento:</label>
@@ -58,4 +65,6 @@
         </tbody>
     </table>
 </div>
+<script src="/public/js/jquery-3.7.0.min.js"></script>
+<script src="/public/js/jquery.maskMoney.min.js"></script>
 <script src="/public/js/funcionario.js"></script>

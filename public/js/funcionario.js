@@ -150,7 +150,7 @@ salvarBtn.addEventListener('click', () => {
     const novoFuncionario = {
         nome: nome,
         sobrenome: sobrenome,
-        salario: salario,
+        salario: salario.replace(/\./g, "").replace(/\,/g, ".").replace('R$ ', ''),
         data_nascimento: dataNascimento,
     };
 
@@ -224,3 +224,7 @@ async function excluirFuncionario(id, row) {
 
 // Carregar os funcionários ao carregar a página
 carregarFuncionarios();
+
+$(document).ready(function () {
+    $("#salario").maskMoney({ prefix: "R$ ", decimal: ",", thousands: "." });
+});

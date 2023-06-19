@@ -7,12 +7,12 @@
 	},
 	"item": [
 		{
-			"name": "http://localhost:8080/api/funcionarios",
+			"name": "http://localhost/api/funcionarios",
 			"request": {
 				"method": "GET",
 				"header": [],
 				"url": {
-					"raw": "http://localhost:8080/api/funcionarios",
+					"raw": "http://localhost/api/funcionarios",
 					"protocol": "http",
 					"host": [
 						"localhost"
@@ -27,7 +27,7 @@
 			"response": []
 		},
 		{
-			"name": "http://localhost:8080/api/funcionario",
+			"name": "http://localhost/api/funcionario",
 			"request": {
 				"method": "POST",
 				"header": [],
@@ -41,7 +41,7 @@
 					}
 				},
 				"url": {
-					"raw": "http://localhost:8080/api/funcionario",
+					"raw": "http://localhost/api/funcionario",
 					"protocol": "http",
 					"host": [
 						"localhost"
@@ -56,12 +56,12 @@
 			"response": []
 		},
 		{
-			"name": "http://localhost:8080/api/funcionario/1",
+			"name": "http://localhost/api/funcionario/1",
 			"request": {
 				"method": "GET",
 				"header": [],
 				"url": {
-					"raw": "http://localhost:8080/api/funcionario/1",
+					"raw": "http://localhost/api/funcionario/1",
 					"protocol": "http",
 					"host": [
 						"localhost"
@@ -77,7 +77,7 @@
 			"response": []
 		},
 		{
-			"name": "http://localhost:8080/api/funcionario/1",
+			"name": "http://localhost/api/funcionario/1",
 			"request": {
 				"method": "PUT",
 				"header": [],
@@ -91,7 +91,7 @@
 					}
 				},
 				"url": {
-					"raw": "http://localhost:8080/api/funcionario/1",
+					"raw": "http://localhost/api/funcionario/1",
 					"protocol": "http",
 					"host": [
 						"localhost"
@@ -107,12 +107,12 @@
 			"response": []
 		},
 		{
-			"name": "http://localhost:8080/api/funcionario/1",
+			"name": "http://localhost/api/funcionario/1",
 			"request": {
 				"method": "DELETE",
 				"header": [],
 				"url": {
-					"raw": "http://localhost:8080/api/funcionario/1",
+					"raw": "http://localhost/api/funcionario/1",
 					"protocol": "http",
 					"host": [
 						"localhost"
@@ -128,12 +128,12 @@
 			"response": []
 		},
 		{
-			"name": "http://localhost:8080/api/projetos",
+			"name": "http://localhost/api/projetos",
 			"request": {
 				"method": "GET",
 				"header": [],
 				"url": {
-					"raw": "http://localhost:8080/api/projetos",
+					"raw": "http://localhost/api/projetos",
 					"protocol": "http",
 					"host": [
 						"localhost"
@@ -148,7 +148,7 @@
 			"response": []
 		},
 		{
-			"name": "http://localhost:8080/api/projeto",
+			"name": "http://localhost/api/projeto",
 			"request": {
 				"method": "POST",
 				"header": [],
@@ -162,7 +162,7 @@
 					}
 				},
 				"url": {
-					"raw": "http://localhost:8080/api/projeto",
+					"raw": "http://localhost/api/projeto",
 					"protocol": "http",
 					"host": [
 						"localhost"
@@ -177,12 +177,12 @@
 			"response": []
 		},
 		{
-			"name": "http://localhost:8080/api/projeto/14",
+			"name": "http://localhost/api/projeto/14",
 			"request": {
 				"method": "GET",
 				"header": [],
 				"url": {
-					"raw": "http://localhost:8080/api/projeto/14",
+					"raw": "http://localhost/api/projeto/14",
 					"protocol": "http",
 					"host": [
 						"localhost"
@@ -198,7 +198,7 @@
 			"response": []
 		},
 		{
-			"name": "http://localhost:8080/api/projeto/14",
+			"name": "http://localhost/api/projeto/14",
 			"request": {
 				"method": "PUT",
 				"header": [],
@@ -212,7 +212,7 @@
 					}
 				},
 				"url": {
-					"raw": "http://localhost:8080/api/projeto/14",
+					"raw": "http://localhost/api/projeto/14",
 					"protocol": "http",
 					"host": [
 						"localhost"
@@ -228,12 +228,12 @@
 			"response": []
 		},
 		{
-			"name": "http://localhost:8080/api/projeto/14",
+			"name": "http://localhost/api/projeto/14",
 			"request": {
 				"method": "DELETE",
 				"header": [],
 				"url": {
-					"raw": "http://localhost:8080/api/projeto/14",
+					"raw": "http://localhost/api/projeto/14",
 					"protocol": "http",
 					"host": [
 						"localhost"
